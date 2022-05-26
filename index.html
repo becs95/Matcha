@@ -1,66 +1,112 @@
 <!DOCTYPE html>
-<html> 
+<html>
     <head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;0,700;1,900&display=swap" rel="stylesheet">
-        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;0,700;1,900&family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
-        <title> Matcha</title>
-<!-- aqui van comentarios -->
+        <title>Matcha</title>
     </head>
     <body>
-<section>
-    <header class="header">
-        <a href="/" class="imagen_matcha">
-            <img class="logo-matcha" src="images/matchalogo.svg" alt="logo de Matcha">
-        </a>
-        <nav class="navbar">
-            <ul>
-                <li>platform</li>
-                <li>pricing</li>
-                <li>costumers</li>
-                <li>resourses</li>
-                <li>about</li>
-            </ul>
-        </nav>
-        <div class="actions">
-            <a href="/">sing -In</a>
-            <button>Start Free Trial</button>
-        </div>
-    </header>
-</section>
 
-        
-        <!-- esta es labarra de navegacion -->
+        <!-- Esta es la barra de navegacion -->
+        <section>
+            <header class="header">
+                <a href="/" class="imagen_matcha">
+                    <img class="logo matcha" src="images/matchalogo.svg" alt="Logo de Matcha">
+                </a>
+
+                <nav class="navbar">
+                    <ul>
+                        <li>Platform</li>
+                        <li>Pricing</li>
+                        <li>Customers</li>
+                        <li>Resources</li>
+                        <li>About</li>
+                    </ul>
+                </nav>
+
+                <div class="actions">
+                    <a href="/">Sign In</a>
+                    <button>Start Free Trial</button>
+                </div>
+            </header>
+        </section>
+
+
+        <!-- Esta es la seccion inicial -->
         <section class="main">
-            <!-- esta es a seccion principal  -->
-            <h1> 
-                Build your blog. Build your business
-            </h1>
-            <h3> 
+            <h1>Build your blog. Build your business.</h1>
+            <h3>
                 Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.
             </h3>
             <form>
-                <input type="email"/>
+                <input type="email" />
                 <button type="submit">
-                    Try it now &rarr; <!-- para poner la flecha en y manita en el mouse-->
+                    Try it now &rarr;
                 </button>
-            </form><!--formulario-->
-            <p> 
+            </form>
+
+            <p class="colorGrisInicial">
                 Start publishing today with a <strong>free 7-day trial.</strong>
             </p>
-               <p>
-                   <strong>
-                    No credit card required.
-                   </strong>
-                </p>
-                <figure class="first-image">
-                    <img src="images/capterra-logo.png"/> <!--para agregar imagenes-->
+            <p>
+                <strong>No credit card</strong> required.
+            </p>
+
+            <figure>
+                <img class="first-image" src="images/capterra-logo.png" alt="Capterra">
+            </figure>
+            <figure>
+                <img class="second-image" src="images/imagen2.PNG" alt="Intro to matcha">
+            </figure>
+        </section>
+
+        
+        <section class="publish">
+            <article class="video">
+               
+                <div class="videocont" >
+                    <video class=" cuadrovideo"
+                    poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
+                    controls>
+                        
+                        <sourse src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+                        ></sourse>
+                        <sourse scr="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"></sourse>
+                        
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/SImHi16cwqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </video>
+                </div>
+                <figure class="seeit">
+                    <img class= greenarrow src="https://i.pinimg.com/474x/b0/61/de/b061de337ba79e850b40f7af96addc5a.jpg">
+                    <p > see how it woks </p>
                 </figure>
-                <figure class="second-image"> 
-                    <img src="images/imagen2.PNG"/> 
-                </figure>
+               
+            </article>
+
+
+
+            <!-- aqui vamos a poner el texto de la publicidad-->
+            <article class="publicidad">
+            <h2 class="titulopublish">
+                Publish to your blog in minutes, not hours.
+            </h2>
+            <p class="color-gris">
+                Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t have hours to create 
+                content that may or may not work. With Matcha, instantly publish from our library of 10,000+ professionally written articles
+                 and build your email list faster with our powerful conversion tool
+            </p>
+            <form>
+                <input type="email" />
+                <button type="submit">
+                    Try it now &rarr;
+                </button>
+            </form>
+            </article>
+
         </section>
     </body>
 </html>

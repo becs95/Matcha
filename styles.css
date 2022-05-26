@@ -1,63 +1,64 @@
-
 body {
   background-color: #fffbf7;
-  margin: 0px;
-}
-h1{
-  color: #025157;
+  margin: 0;
+  font font-family: "open Sans", "sans-serif";
 }
 
-p{
+h3 {
   color: #46484c;
 }
 
-p{
-color:#8b8b8bcc ;
+.colorGrisInicial {
+  color: #8b8b8bcc;
 }
 
 button {
-  color: #ffffff ;
-  background-color:  #025157;
+  color: #ffffff;
+  background-color: #025157;
 }
 
-.header{
+.header {
   margin: 40px 20px 0;
-  font-size: 10px;
-
+  font-size: 0;
 }
+
 .header > * {
   display: inline-block;
   font-size: 16px;
   vertical-align: middle;
-  height: 100px;
+  height: 100%;
   line-height: 45px;
 }
 
 .header li {
   display: inline;
   margin: 0 15px;
-
 }
 
+.header ul {
+  padding: 0;
+}
 
-.logo-matcha{
+.logo_matcha {
   width: 50px;
 }
-.imagen_matcha{
-width: 20px;
-text-align: ;
+
+.imagen_matcha {
+  width: 20%;
 }
+
 .navbar {
-  width: 60px;
+  width: 60%;
   text-align: center;
-  color:#025157;
+  color: #025157;
   font-weight: 500;
 }
-.actions{
-  width: 20px;
-  text-align: center;
-  font-size: 16;
-  font-weight: 14;
+
+.actions {
+  width: 20%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .actions a {
@@ -66,30 +67,75 @@ text-align: ;
   margin: 0 15px;
 }
 
-.actions button{
+.actions button {
   border-radius: 5px;
   background-color: #67b54b;
-  color:#ffffff;
+  color: #ffffff;
   border: none;
   padding: 20px;
 }
-.first-image{
-  width: 20px;
-  text-align: center;
-}
-.second-image{
-  width: 50px;
+
+.first-image {
+  width: 20%;
   text-align: center;
 }
 
-figure{
-  width: 60px;
+.second-image {
+  width: 50%;
+  text-align: center;
 }
+
 .main {
-text-align:center ;
+  text-align: center;
 }
+
 .main h1 {
-  font-family: "Alegreya", serif;
-  font-size: 60px;
-  margin-bottom: 24px;
+  font-family: 'Alegreya', serif;
+  font-size: 48px;
+  font-weight: 900;
+  color: #025157;
+}
+.publish{
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+}
+
+.publish .publicidad .titulopublish{
+  font-family: 'Alegreya', serif;
+  font-size: 26px;
+  font-weight: 900;
+  color: #025157;
+  margin-top: 0;
+}
+
+.publish .publicidad .color.gris{
+  color:#8b8b8bcc;
+}
+
+.publish .video{
+flex: 1;
+
+}
+
+.publish .video .videocont{
+  width: 90px;
+}
+
+.publish .video .cuadrovideo .videocont{
+  width: 100px;
+}
+
+.publish .video .seeit {
+  display:flex;
+  justify-content: center;
+}
+
+.publish .video .seeit .greenarrow{
+  width: 50px;
+}
+
+.publish .publicidad{
+flex: 1;
 }
